@@ -16,8 +16,18 @@ Documentación y resolución de cada uno de los ejercicios básicos de MS-DOS.
     + [Ejercicio 1.10](#ejercicio-110)
     + [Ejercicio 1.11](#ejercicio-111)
     + [Ejercicio 1.12](#ejercicio-112)
-3. [Ejercicio 2]()
-4. [Ejercicio 3]()
+2. [Ejercicio 2]()
+    + [Ejercicio 2.1](#ejercicio-21)
+    + [Ejercicio 2.2](#ejercicio-22)
+    + [Ejercicio 2.3](#ejercicio-23)
+    + [Ejercicio 2.4](#ejercicio-24)
+    + [Ejercicio 2.5](#ejercicio-25)
+    + [Ejercicio 2.6](#ejercicio-26)
+    + [Ejercicio 2.7](#ejercicio-27)
+    + [Ejercicio 2.8](#ejercicio-28)
+    + [Ejercicio 2.9](#ejercicio-29)
+    + [Ejercicio 2.10](#ejercicio-210)
+5. [Ejercicio 3]()
 
 # Ejercicio 1
 
@@ -91,6 +101,31 @@ cd C:\Users\Fran\Documents\Actividad2SI
 md NUEVO
 ~~~
 ![image](https://user-images.githubusercontent.com/91600940/159043363-4e1c919d-d40b-4c0a-8536-ffd5d49a2326.png)
+
+### Ejercicio 1.12
+Para este ejercicio he utilizado el siguiente orden de comandos.
+~~~
+cd C:\Users\Fran\Documents\Actividad2SI\APLI\WORD\PRACT
+dir C:\Users\Fran\Documents\Actividad2SI\APLI\WORD
+~~~
+![image](https://user-images.githubusercontent.com/91600940/159178305-84f89cae-2a0a-403e-830d-5649d8beb249.png)
+
+# Ejercicio 2
+
+## Ejercicio 2.1
+Estando situado en la carpeta raíz, he utilizado los siguientes comandos.
+```
+cd APLI
+rd ACCES
+md ASTRO
+```
+
+## Ejercicio 2.2
+Este ejercicio lo he realizado de la misma manera que el [ejercicio 1.1](#ejercicio-11).<br>
+![image](https://user-images.githubusercontent.com/91600940/159178930-1e47ea93-bf2d-48b9-b8a2-4195d2cf4165.png)
+
+
+
 
 
 
