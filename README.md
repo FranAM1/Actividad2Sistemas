@@ -27,7 +27,17 @@ Documentación y resolución de cada uno de los ejercicios básicos de MS-DOS.
     + [Ejercicio 2.8](#ejercicio-28)
     + [Ejercicio 2.9](#ejercicio-29)
     + [Ejercicio 2.10](#ejercicio-210)
-5. [Ejercicio 3]()
+3. [Ejercicio 3]()
+    + [Ejercicio 3.1](#ejercicio-31)
+    + [Ejercicio 3.2](#ejercicio-32)
+    + [Ejercicio 3.3](#ejercicio-33)
+    + [Ejercicio 3.4](#ejercicio-34)
+    + [Ejercicio 3.5](#ejercicio-35)
+    + [Ejercicio 3.6](#ejercicio-36)
+    + [Ejercicio 3.7](#ejercicio-37)
+    + [Ejercicio 3.8](#ejercicio-38)
+    + [Ejercicio 3.9](#ejercicio-39)
+    + [Ejercicio 3.10](#ejercicio-310)
 
 # Ejercicio 1
 
@@ -113,6 +123,42 @@ dir C:\Users\Fran\Documents\Actividad2SI\APLI\WORD
 # Ejercicio 2
 
 ## Ejercicio 2.1
+Situandome en la carpeta de **TEXTOS**, he utilizado el comando ```COPY CON EJER.TXT``` para crear el archivo de texto y una vez tuve el texto copiado, utilice el atajo de teclas ```Ctrl + Z``` para salir del editor de texto y crear el archivo.
+![image](https://user-images.githubusercontent.com/91600940/159249286-0c266143-7639-4a78-81ab-dd06cc990710.png)
+
+## Ejercicio 2.2
+He utilizado el siguiente comando para copiar el txt a la carpeta **AGENDA**
+```
+copy EJER.TXT C:\Users\Fran\Documents\Actividad2SI\VARIOS\AGENDA
+```
+## Ejercicio 2.3
+He utilizado la siguiente lista de comandos para situarme en la carpeta y borrar el archivo.
+```
+cd C:\Users\Fran\Documents\Actividad2SI\APLI\WORD\TEXTOS
+del EJER.TXT
+```
+
+## Ejercicio 2.4
+Para añadir la linea de texto he utilizado el siguiente comando.
+```
+echo "Cada archivo tiene un nombre y una extensión que los distingue del resto de archivos" >> EJER.TXT
+```
+![image](https://user-images.githubusercontent.com/91600940/159254255-8c7e42af-d936-4698-a0ef-d60470fe00bb.png)
+
+## Ejercicio 2.5
+He utilizado el mismo comando que en el [ejercicio2](#ejercicio-21) pero con la ruta ```C:\Users\Fran\Documents\Actividad2SI\PROG\BASIC```.
+
+## Ejercicio 2.6
+He utilizado la siguiente linea de comandos.
+```
+cd C:\Users\Fran\Documents\Actividad2SI\VARIOS\AGENDA
+move EJER.TXT FICHERO.TXT
+```
+
+
+# Ejercicio 3
+
+## Ejercicio 3.1
 Estando situado en la carpeta raíz, he utilizado los siguientes comandos.
 ```
 cd APLI
@@ -120,7 +166,7 @@ rd ACCES
 md ASTRO
 ```
 
-## Ejercicio 2.2
+## Ejercicio 3.2
 Este ejercicio lo he realizado de la misma manera que el [ejercicio 1.1](#ejercicio-11).<br>
 ![image](https://user-images.githubusercontent.com/91600940/159178930-1e47ea93-bf2d-48b9-b8a2-4195d2cf4165.png)
 
