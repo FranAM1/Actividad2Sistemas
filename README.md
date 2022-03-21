@@ -146,7 +146,7 @@ echo "Cada archivo tiene un nombre y una extensión que los distingue del resto 
 ![image](https://user-images.githubusercontent.com/91600940/159254255-8c7e42af-d936-4698-a0ef-d60470fe00bb.png)
 
 ## Ejercicio 2.5
-He utilizado el mismo comando que en el [ejercicio2](#ejercicio-21) pero con la ruta ```C:\Users\Fran\Documents\Actividad2SI\PROG\BASIC```.
+He utilizado el mismo comando que en el [ejercicio 2.2](#ejercicio-21) pero con la ruta ```C:\Users\Fran\Documents\Actividad2SI\PROG\BASIC```.
 
 ## Ejercicio 2.6
 He utilizado la siguiente linea de comandos.
