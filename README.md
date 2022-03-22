@@ -16,7 +16,7 @@ Documentación y resolución de cada uno de los ejercicios básicos de MS-DOS.
     + [Ejercicio 1.10](#ejercicio-110)
     + [Ejercicio 1.11](#ejercicio-111)
     + [Ejercicio 1.12](#ejercicio-112)
-2. [Ejercicio 2]()
+2. [Ejercicio 2](#ejercicio-2)
     + [Ejercicio 2.1](#ejercicio-21)
     + [Ejercicio 2.2](#ejercicio-22)
     + [Ejercicio 2.3](#ejercicio-23)
@@ -27,7 +27,7 @@ Documentación y resolución de cada uno de los ejercicios básicos de MS-DOS.
     + [Ejercicio 2.8](#ejercicio-28)
     + [Ejercicio 2.9](#ejercicio-29)
     + [Ejercicio 2.10](#ejercicio-210)
-3. [Ejercicio 3]()
+3. [Ejercicio 3](#ejercicio-3)
     + [Ejercicio 3.1](#ejercicio-31)
     + [Ejercicio 3.2](#ejercicio-32)
     + [Ejercicio 3.3](#ejercicio-33)
@@ -38,6 +38,17 @@ Documentación y resolución de cada uno de los ejercicios básicos de MS-DOS.
     + [Ejercicio 3.8](#ejercicio-38)
     + [Ejercicio 3.9](#ejercicio-39)
     + [Ejercicio 3.10](#ejercicio-310)
+ 4. [Ejercicio 4](#ejercicio-4)
+    + [Ejercicio 4.1](#ejercicio-41)
+    + [Ejercicio 4.2](#ejercicio-42)
+    + [Ejercicio 4.3](#ejercicio-43)
+    + [Ejercicio 4.4](#ejercicio-44)
+    + [Ejercicio 4.5](#ejercicio-45)
+    + [Ejercicio 4.6](#ejercicio-46)
+    + [Ejercicio 4.7](#ejercicio-47)
+    + [Ejercicio 4.8](#ejercicio-48)
+    + [Ejercicio 4.9](#ejercicio-49)
+    + [Ejercicio 4.10](#ejercicio-410)
 
 # Ejercicio 1
 
@@ -155,6 +166,31 @@ cd C:\Users\Fran\Documents\Actividad2SI\VARIOS\AGENDA
 move EJER.TXT FICHERO.TXT
 ```
 
+## Ejercicio 2.7
+He utilizado el siguiente comando
+```
+move FICHERO.TXT C:\Users\Fran\Documents\Actividad2SI\PROG\BASIC
+```
+
+## Ejercicio 2.8
+Para este ejercicio, utilizando los siguientes comandos, he copiado el contenido de **EJER.TXT** para luego copiar dentro de **NUEVO.TXT** con la primera linea eliminada, para terminar con la eliminación de **EJER.TXT**
+```
+type EJER.TXT
+copy con NUEVO.TXT
+del EJER.TXT
+```
+![image](https://user-images.githubusercontent.com/91600940/159549442-7deb013e-9351-4369-b51d-3a53d1574cb5.png)
+
+## Ejercicio 2.9
+He utilizado el siguiente comando
+```
+copy NUEVO.TXT C:\Users\Fran\Documents\Actividad2SI\APLI\WORD\NOTAS
+```
+
+## Ejercicio 2.10
+A traves de la utilizacion del comando ```dir``` en las diferentes rutas podemos ver que en la carpeta en **NOTAS** hay 1 y en **BASIC** hay 2 archivos
+![image](https://user-images.githubusercontent.com/91600940/159551027-b74bab6c-1715-464f-a3bf-037b620f8443.png)
+
 
 # Ejercicio 3
 
@@ -170,10 +206,77 @@ md ASTRO
 Este ejercicio lo he realizado de la misma manera que el [ejercicio 1.1](#ejercicio-11).<br>
 ![image](https://user-images.githubusercontent.com/91600940/159178930-1e47ea93-bf2d-48b9-b8a2-4195d2cf4165.png)
 
+## Ejercicio 3.3
+He utilizado los siguientes comandos.
+```
+cd C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\CIENCIA
+dir C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA && tree C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA
+```
+![image](https://user-images.githubusercontent.com/91600940/159552369-11617da1-58d4-4381-81fb-fa2a6bcfbd52.png)
 
+## Ejercicio 3.4
+He utilizado el siguiente comando, escribiendo su respectivo texto.
+```
+copy con C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\DATOS1\TYCHO.TXT
+```
 
+## Ejercicio 3.5
+He utilizado el siguiente comando, escribiendo su respectivo texto.
+```
+copy con C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\DATOS2\KEPLER.TXT
+```
+## Ejercicio 3.6
 
+He utilizado el siguiente comando.
+```
+copy C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\DATOS1\TYCHO.TXT C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\CIENCIA && copy C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\DATOS2\KEPLER.TXT C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\CIENCIA
+```
 
+## Ejercicio 3.7
+He utilizado el siguietne comando.
+```
+move C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\DATOS1\TYCHO.TXT C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\DATOS2 && move C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\DATOS2\KEPLER.TXT C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\DATOS1
+```
+
+## Ejercicio 3.8
+Estando en la carpeta **DATOS2**, he utilizado el siguiente comando.
+```
+copy TYCHO.TXT+C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\DATOS1\KEPLER.TXT C:\Users\Fran\Documents\Actividad2SI\APLI\ASTRO\HISTORIA\TOTAL.TXT
+```
+
+## Ejercicio 3.9
+Situandome en la carpeta **CIENCIA**, he utilizado el siguiente comando.
+```
+echo "Kepler aplicó sus teorías a los satélites de Júpiter, descubiertos por Galileo a través de un pequeño telescopio, cuya introducción en la observación astronómica constituye uno de los hitos de la astronomía." >> KEPLER.TXT
+```
+
+## Ejercicio 3.10
+Estando situado en la carpeta **CIENCIA**, he utilizado el siguiente comando.
+```
+copy KEPLER.TXT GALILEO.TXT && del KEPLER.TXT
+```
+
+# Ejercicio 4
+
+## Ejercicio 4.1
+Como en los anteriores ejercicios, no lo he creado en la carpeta raiz del disco, si no en mi carpeta **Actividad2SI** con el siguiente comando.
+```
+md C:\Users\Fran\Documents\Actividad2SI\TECINFO
+```
+
+## Ejercicio 4.2
+He seguido los mismo pasos que en el [ejercicio 2.1](#ejercicio-21) pero con su respectivo nombre y texto.
+
+## Ejercicio 4.3
+He seguido los mismo pasos que en el [ejercicio 2.1](#ejercicio-21) pero con su respectivo nombre y texto.
+
+## Ejercicio 4.4
+Estando en la carpeta **TECINFO**, he utilizado el siguiente comando
+```
+move HARD.TXT C:\Users\Fran\Documents\Actividad2SI\APLI && move SOFT.TXT C:\Users\Fran\Documents\Actividad2SI\APLI
+```
+
+## Ejercicio 4.5
 
 
 
