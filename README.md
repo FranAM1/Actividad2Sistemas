@@ -279,4 +279,8 @@ move HARD.TXT C:\Users\Fran\Documents\Actividad2SI\APLI && move SOFT.TXT C:\User
 ## Ejercicio 4.5
 
 
+## Ejercicio 4.9
+**NO SE HACE**
 
+## Ejercicio 4.10
+**NO SE HACE**
