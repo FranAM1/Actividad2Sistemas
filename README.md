@@ -271,13 +271,34 @@ He seguido los mismo pasos que en el [ejercicio 2.1](#ejercicio-21) pero con su 
 He seguido los mismo pasos que en el [ejercicio 2.1](#ejercicio-21) pero con su respectivo nombre y texto.
 
 ## Ejercicio 4.4
-Estando en la carpeta **TECINFO**, he utilizado el siguiente comando
+Estando en la carpeta **TECINFO**, he utilizado el siguiente comando.
 ```
 move HARD.TXT C:\Users\Fran\Documents\Actividad2SI\APLI && move SOFT.TXT C:\Users\Fran\Documents\Actividad2SI\APLI
 ```
 
 ## Ejercicio 4.5
+Estando en la carpeta **APLI**, he utilizado el siguiente comando.
+```
+copy HARD.TXT+SOFT.TXT C:\Users\Fran\Documents\Actividad2SI\VARIOS\AGENDA\ORDER.TXT
+```
 
+## Ejercicio 4.6
+He utilizado el siguiente comando.
+```
+rd C:\Users\Fran\Documents\Actividad2SI\TECINFO
+```
+
+## Ejercicio 4.7
+Estando en la carpeta **APLI**, he utilizado el siguiente comando.
+```
+copy HARD.TXT C:\Users\Fran\Documents\Actividad2SI\VARIOS && copy SOFT.TXT C:\Users\Fran\Documents\Actividad2SI\VARIOS
+```
+
+## Ejercicio 4.8
+Estando en la carpeta **AGENDA**, he utilizado el siguiente comando
+```
+ren ORDER.TXT ORDER.TYP
+```
 
 ## Ejercicio 4.9
 **NO SE HACE**
